@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    font-size: medium;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 300px;
+    height: 91.5vh;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.test {
+    display: flex;
+    color: #545454;
+    /* padding: 0 0 1rem 0; */
+}
+
+.test-logo {
+    max-width: 3rem;
+    width: 3rem;
+}
+
+.test-text {
+    padding: .5rem;
+}
+
+.test-text div {
+    font-size: x-small;
+}
