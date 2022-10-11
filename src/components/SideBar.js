@@ -15,13 +15,10 @@ function SideBar() {
 						<div>Software project</div>
 					</div>
 				</div>
+
 				<div>
+					<h5 className="planning-head">PLANNING</h5>
 					<ul className="planning">
-						<li>
-							<a href="#">
-								<h5>PLANNING</h5>
-							</a>
-						</li>
 						<li>
 							<a href="#">
 								<i id="icon" class="icon fas fa-sitemap"></i>R Map
@@ -39,12 +36,9 @@ function SideBar() {
 						</li>
 					</ul>
 					<ul className="planning">
-						<li>
-							<a href="#">
-								<h5 className="heading">DEVELOPMENT</h5>
-							</a>
-						</li>
-						<li>
+						<h5 className="planning-head">DEVELOPMENT</h5>
+
+						<li style={{ padding: '1rem 0 0 0 ' }}>
 							<a href="#">
 								<i id="icon" class="icon fas fa-code"></i>Code
 							</a>
@@ -52,7 +46,7 @@ function SideBar() {
 					</ul>
 				</div>
 
-				<hr class="line"></hr>
+				<hr className="line"></hr>
 
 				<div className="planning">
 					<ul>
@@ -73,6 +67,13 @@ function SideBar() {
 						</li>
 					</ul>
 				</div>
+			</div>
+
+			<div className="sidebar-bottom">
+				<div className="team-mangagement">
+					Your in a team management project
+				</div>
+				<a href="#">Learn More</a>
 			</div>
 		</div>
 	);

@@ -1,40 +1,116 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
-.heading{
-    font-size: medium;
+.heading {
+	font-size: medium;
 }
 
 .side-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 300px;
-    width: 300px;
-    height: 91.5vh;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 300px;
+	width: 300px;
+	height: 91.5vh;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
 }
 
 .test {
-    display: flex;
-    color: #545454;
-    /* padding: 0 0 1rem 0; */
+	display: flex;
+	color: #545454;
+	/* padding: 0 0 1rem 0; */
 }
 
 .test-logo {
-    max-width: 3rem;
-    width: 3rem;
+	max-width: 3rem;
+	width: 3rem;
 }
 
 .test-text {
-    padding: .5rem;
+	padding: 0.5rem;
 }
 
 .test-text div {
-    font-size: x-small;
+	font-size: x-small;
+}
+
+.side-bar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 300px;
+	width: 300px;
+	height: 91.5vh;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+}
+
+.test {
+	display: flex;
+	color: #545454;
+	/* padding: 0 0 1rem 0; */
+}
+
+.test-logo {
+	max-width: 3rem;
+	width: 3rem;
+}
+
+.test-text {
+	padding: 0.5rem;
+}
+
+.test-text div {
+	font-size: x-small;
+}
+
+.planning {
+	padding: 0.8rem 0;
+}
+
+.planning i {
+	font-size: 1rem;
+	padding-right: 1rem;
+}
+
+.planning-head {
+	padding-top: 1rem;
+	font-size: 0.8rem;
+}
+
+.planning li {
+	list-style: none;
+	padding: 0.25rem;
+}
+
+.planning li a {
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: #545454;
+}
+
+.line {
+	border: 1px solid #888888;
+	margin: 0.5rem;
+}
+
+.sidebar-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: x-small;
+	color: #545454;
+}
+
+.sidebar-bottom a {
+	text-decoration: none;
+	font-size: small;
+	color: #545454;
+	font-weight: 600;
 }
