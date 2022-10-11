@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
 import Path from './components/Path';
-import Activity from './components/Activity';
+import Activity from './components/Attach';
 import Discription from './components/Discription';
 
 function App() {

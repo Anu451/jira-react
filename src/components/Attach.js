@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../img/logo2.png'
-import './ativity.css'
+import './attach.cssgti'
 
 const Activity = () => {
 	return (
