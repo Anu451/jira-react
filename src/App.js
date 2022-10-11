@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
 import Path from './components/Path';
+import Activity from './components/Activity';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<SideBar></SideBar>
 				<div className="content-path">
 					<Path></Path>
+					<Activity></Activity>
 				</div>
 			</div>
 		</div>

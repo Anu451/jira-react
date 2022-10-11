@@ -1,0 +1,25 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.activity-button {
+	padding-top: 1rem;
+}
+.activity-head {
+	/* padding: 1rem 0; */
+	font-weight: bold;
+}
+.activity img {
+	width: 1.5rem;
+}
+.button{
+    padding: 0.3rem 0.8rem;
+    outline: none;
+    background: #d0d0d0;
+    color: #4d4d4d;
+    border-radius: .3rem;
+    border: none;
+    margin-right:.6rem;
+}
