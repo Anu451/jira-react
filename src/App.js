@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
 import Path from './components/Path';
 import Activity from './components/Activity';
+import Discription from './components/Discription';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<div className="content-path">
 					<Path></Path>
 					<Activity></Activity>
+					<Discription></Discription>
 				</div>
 			</div>
 		</div>
