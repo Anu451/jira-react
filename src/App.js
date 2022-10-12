@@ -6,6 +6,7 @@ import Path from './components/Path';
 import Discription from './components/Discription';
 import Attach1 from './components/Attach1';
 import Activity from './components/Activity';
+import Comment from './components/Comment';
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 					<Attach1></Attach1>
 					<Discription></Discription>
 					<Activity></Activity>
+					<Comment></Comment>
 				</div>
 			</div>
 		</div>
