@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.heading{
+    font-size: medium;
+}
+
+.activity-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.8rem;
+}
+
+.activity-link a{
+	text-decoration: none;
+	font-size: small;
+	color: rgb(76, 76, 76);
+
+}

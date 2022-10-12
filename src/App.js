@@ -5,6 +5,7 @@ import SideBar from './components/SideBar';
 import Path from './components/Path';
 import Discription from './components/Discription';
 import Attach1 from './components/Attach1';
+import Activity from './components/Activity';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Path></Path>
 					<Attach1></Attach1>
 					<Discription></Discription>
+					<Activity></Activity>
 				</div>
 			</div>
 		</div>
