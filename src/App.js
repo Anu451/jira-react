@@ -3,8 +3,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
 import Path from './components/Path';
-import Activity from './components/Attach';
 import Discription from './components/Discription';
+import Attach1 from './components/Attach1';
 
 function App() {
 	return (
@@ -14,7 +14,7 @@ function App() {
 				<SideBar></SideBar>
 				<div className="content-path">
 					<Path></Path>
-					<Activity></Activity>
+					<Attach1></Attach1>
 					<Discription></Discription>
 				</div>
 			</div>

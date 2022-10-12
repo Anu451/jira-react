@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from '../img/logo2.png'
-import './attach.cssgti'
+import './attach1.css';
 
-const Activity = () => {
+function Attach1() {
 	return (
-		<div className="activity">
+		<div className="s">
 			<div className="activity-head">
-				<img src={logo} alt="" />
+				{/* <img src={logo} alt="" /> */}
 				<span>Sdgh</span>
 			</div>
 
@@ -31,4 +30,4 @@ const Activity = () => {
 	);
 }
 
-export default Activity;
+export default Attach1;
