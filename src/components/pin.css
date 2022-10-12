@@ -1,0 +1,21 @@
+.content-left-pin{
+    /* margin-bottom: 0.9rem; */
+    padding: 0.5rem;
+    		    border: 0.1rem solid #c2c2c2;
+
+}
+
+.pin-heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pinned-fields{
+    padding-bottom: 0.8rem;
+}
+
+.pinned-content p{
+    padding-top: 0.3rem;
+    font-size: small  ;
+    color: grey;
+}

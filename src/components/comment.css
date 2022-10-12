@@ -16,8 +16,10 @@
 }
 
 .comment-input {
-	padding: 0.8rem;
-	/* border-radius:; */
+	padding: 0.5rem;
+	    border: 0.1rem solid #c2c2c2;
+	border-radius:0.5em;
+	width: 120%;
 }
 
 .comment button{

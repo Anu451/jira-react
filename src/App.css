@@ -1,8 +1,30 @@
-.content {
-	display: flex;
-	
+*{
+	margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-.content-path{
-	padding: 1rem;
+.content-sidebar{
+	display: flex;
+		/* justify-content:space-between; */
+
+
 }
+.content {
+	display: flex;
+	justify-content:space-between;
+	width: 100%;
+}
+
+.content-right{
+	padding: 1.5rem;
+	/* width: 600px; */
+}
+
+.content-left{
+width: 500px;
+padding: 1rem;
+
+}
+
+

@@ -14,6 +14,10 @@ function Comment() {
 				/>
 			</span>
 			<button>Post</button>
+			{/* <div>
+				<b>Pro tip:</b>
+				<span>Press M to comment</span>
+			</div> */}
 		</div>
 	);
 }

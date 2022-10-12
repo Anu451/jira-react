@@ -1,0 +1,9 @@
+.icons{
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons a{
+    padding-left: 2.5rem;
+}

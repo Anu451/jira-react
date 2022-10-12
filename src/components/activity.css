@@ -10,7 +10,7 @@
 
 .activity-button{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; 	 */
     align-items: center;
     padding-bottom: 0.8rem;
 }
@@ -19,5 +19,6 @@
 	text-decoration: none;
 	font-size: small;
 	color: rgb(76, 76, 76);
+	padding-left: 6rem;
 
 }
