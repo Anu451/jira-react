@@ -30,3 +30,27 @@
 	border: none;
 	padding: 0.5rem;
 }
+
+.comment-display {
+	margin: 1.5rem;
+		/* border: 0.1rem solid #c2c2c2; */
+		padding: 0.5rem
+;
+}
+
+.comment-time{
+	font-size: small;
+	padding-left: 0.5rem;
+	color: gray;
+}
+
+.user-comment{
+	font-size: small;
+	padding-top: 0.5rem;
+}
+
+.comment-reply{
+		font-size: smaller;
+	padding: 0.8rem 0;
+	color: gray;
+}

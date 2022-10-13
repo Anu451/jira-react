@@ -1,0 +1,38 @@
+.assigned {
+	display: flex;
+	justify-content: space-between;
+}
+.details{
+    font-size: small;
+    
+}
+.assigned-user {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.assigned-user img {
+	width: 2rem;
+	border-radius: 2rem;
+}
+
+.assigned-user input {
+	border: none;
+}
+
+.assigned {
+	padding-bottom: 0.5rem;
+}
+
+
+
+
+.details-heading {
+	padding: 1rem 0.5rem;
+	border: 0.1rem solid #c2c2c2;
+	margin-top: 2rem;
+}
+.details-content {
+	padding: 0.5rem;
+	border: 0.1rem solid #c2c2c2;
+}

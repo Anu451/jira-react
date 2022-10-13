@@ -9,6 +9,7 @@ import Comment from './components/Comment';
 import Icons from './components/Icons';
 import Todo from './components/Todo';
 import Pin from './components/Pin';
+import Details from './components/Details';
 
 function App() {
 	return (
@@ -32,6 +33,7 @@ function App() {
 						<Icons></Icons>
 						<Todo />
 						<Pin />
+						<Details />
 					</div>
 				</div>
 				{/* 
